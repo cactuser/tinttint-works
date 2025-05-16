@@ -1,6 +1,6 @@
 import { createBrowserRouter, Navigate } from 'react-router';
 
-import RootLayout from './layout/RootLayout.tsx';
+import Layout from './layout';
 import FilterSearchPage from './pages/filter-search/route.tsx';
 import PhotographBookPage from './pages/photograph-book/route.tsx';
 import UploadPhotoPage from './pages/upload-photo/route.tsx';
@@ -8,7 +8,7 @@ import UploadPhotoPage from './pages/upload-photo/route.tsx';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <RootLayout />,
+    element: <Layout />,
     children: [
       {
         // upload-photo as default route
