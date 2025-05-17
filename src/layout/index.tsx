@@ -32,9 +32,7 @@ export default function RootLayout() {
           </Link>
         </div>
       </header>
-      <div className="wrapper">
-        <Outlet />
-      </div>
+      <Outlet />
     </main>
   );
 }

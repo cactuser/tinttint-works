@@ -22,7 +22,7 @@
   --white: #fff;
   --black: #000;
 
-  --primary-color: #37b24d;
+  --primary-color: #be4bdb;
   --background-color: #fafafa;
   --text-color: var(--gray-900);
   --border-color: var(--gray-300);
@@ -30,6 +30,10 @@
   --breakpoint-mobile: 768px;
   --breakpoint-tablet: 1024px;
   --breakpoint-desktop: 1280px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {

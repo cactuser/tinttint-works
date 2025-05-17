@@ -7,12 +7,13 @@
 
 .header {
   width: 100%;
-  height: 56px;
+  height: 72px;
   display: flex;
   align-items: center;
   padding: 0 16px;
   border-bottom: 1px solid var(--border-color);
   background-color: var(--white);
+  margin-bottom: 16px;
 }
 
 .header-nav {
@@ -33,13 +34,13 @@
   color: var(--gray-600);
 }
 
-.header-nav-item.active {
-  color: var(--gray-900);
+@media (max-width: 768px) {
+  .header-nav-item {
+    font-size: 12px;
+    text-align: center;
+  }
 }
 
-.wrapper {
-  width: 100%;
-  max-width: var(--breakpoint-desktop);
-  margin: 0 auto;
-  padding: 16px;
+.header-nav-item.active {
+  color: var(--gray-900);
 }
