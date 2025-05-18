@@ -67,9 +67,6 @@ export default [
       // React Hooks
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
-
-      // React Refresh
-      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     },
   },
   prettierConfig,
